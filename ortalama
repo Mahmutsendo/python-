@@ -1,0 +1,9 @@
+vize = input( 'vize notu giriniz :')
+final = input( 'final notu giriniz :')
+ortalama = (float (vize)*0.4)+(float (final)*0.6)
+print ("ortalama{0} ".format(ortalama) )
+ort = input('Ortalamanızı Girin : ')
+if(int(ort)>=50):
+      print("Geçtiniz")
+else:
+      print("Kaldınız")
